@@ -1,2 +1,36 @@
-# Cshell
-Custom minimalistic shell written in C
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="assets/logo.png"/></a>
+</p>
+
+<h3 align="center">Cshell</h3>
+<h4 align="center">Custom minimalistic shell written in C</h3>
+
+---
+
+## Install
+
+The only dependency is the GNU readline library.
+
+```
+$ make
+```
+
+## Usage
+
+```
+$ ./cshell
+```
+
+## Features
+
+- Splits command based on whitespace
+- Redirection
+- History
+- Recalling history through `!` & ~ `!-`
+- Piping (two processes)
+
+## Links
+
+- [Writing your own shell](https://www.cs.cornell.edu/courses/cs414/2004su/homework/shell/shell.html)
+- [Tutorial - Write a shell in C (Primary Motivation)](https://brennan.io/2015/01/16/write-a-shell-in-c/)
